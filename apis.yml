@@ -1,8 +1,29 @@
 aid: blocks
 name: Blocks
-description: Blocks is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Blocks is a cloud cost-optimization service that guarantees up to 20% savings
+  on AWS spend by aggregating the purchasing power of hundreds of companies into
+  group-buying negotiations, then layering automated cloud management on top. Its
+  AI-powered DevOps agent, Major Tom, continuously monitors connected AWS accounts
+  through read-only billing access, surfaces cost-saving and security findings in
+  Slack, and can propose Terraform fixes without requiring root or code access.
+  Onboarding is a one-click read-only AWS cost-data integration with no long-term
+  contracts and no infrastructure changes. Blocks is backed by Speedinvest and is
+  profiled in the API Evangelist network; it currently exposes a marketing and
+  product surface rather than a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/blocks/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://blocks.cloud/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cloud
+- AWS
+- Cost Optimization
+- FinOps
+- DevOps
+- Security
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blocks-domain-security.yml
 - type: Website
   url: https://blocks.cloud
+- type: Pricing
+  url: https://blocks.cloud/pricing
+- type: SignUp
+  url: https://blocks.cloud/sign-up
+- type: Support
+  url: https://blocks.cloud/contact
+- type: TermsOfService
+  url: https://blocks.cloud/terms
+- type: PrivacyPolicy
+  url: https://blocks.cloud/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/108807307/
+- type: Twitter
+  url: https://x.com/blockscloud
+- type: YouTube
+  url: https://www.youtube.com/@BlocksCloud
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
