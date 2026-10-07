@@ -1,0 +1,32 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://blocks.cloud/pricing
+sources:
+- https://blocks.cloud/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: ad-valorem
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'Performance-based pricing: free unless savings achieved; 25% of savings on savings plans, first
+  month of saving on one-off optimisations; 5% group buying discount passed to customer.'
+plan_count: 3
+plans:
+- name: Savings Plans
+  price_text: we take 25% of what we save you
+  price: 25
+  period: none
+  unit: '% of savings'
+- name: One-off optimisations
+  price_text: we take the first month of the saving, then it is all yours
+  period: none
+- name: Major Tom and security findings
+  price_text: Major Tom and security findings are free.
+  period: none
